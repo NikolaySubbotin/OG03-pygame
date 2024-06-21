@@ -25,8 +25,8 @@ target_y = random.randint(0, SCREEN_HEIGHT - target_height)
 # Начальные параметры
 color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 score = 0
-target_speed_x = 2
-target_speed_y = 2
+target_speed_x = 0.3
+target_speed_y = 0.3
 
 # Время окончания игры
 game_duration = 30
